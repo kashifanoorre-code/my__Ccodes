@@ -1,0 +1,10 @@
+int main() {
+    float p,r,t,SI;
+    printf("enter price,rate,time in years: ");
+    scanf("%f %f %f",&p,&r,&t);
+    
+   SI=(p*r*t)/100;
+    printf("simple interest is %.2f",SI);
+
+    return 0;
+}
