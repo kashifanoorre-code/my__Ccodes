@@ -1,0 +1,11 @@
+int main() {
+    int x1,y1,x2,y2;
+    printf("enter coordinates of first point :");
+    scanf("%d %d", &x1,&y1);
+    printf("enter coordinates of second point :");
+    scanf("%d %d", &x2,&y2);
+    
+    float slope=(x1-x2)/(y1-y2);
+    
+    printf("slope is: %.2f",slope);
+    return 0;}
