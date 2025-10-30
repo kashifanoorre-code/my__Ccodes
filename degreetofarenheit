@@ -1,0 +1,8 @@
+int main() {
+    float temp,celcius;
+    printf("enter your temperature in celcius degree :");
+    scanf("%f", &celcius);
+    
+    temp=(1.8*celcius)+32;
+    printf("temperature in farenheit is: %.2f",temp);
+    return 0;}
