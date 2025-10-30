@@ -1,0 +1,23 @@
+int main() {
+    char ipchar;
+    int asciivalue;
+
+    printf("enter your character: ");
+    scanf("%c",&ipchar);
+    asciivalue=ipchar;
+    if(asciivalue >=65 && asciivalue <= 90){
+        printf("%c is an uppercase character ",ipchar);
+    }
+    else if(asciivalue >= 97 && asciivalue <= 122){
+        printf("%c is an lowercase character ",ipchar);
+    }
+    else if(asciivalue >=48 && asciivalue <= 57){
+         printf("%c is a digit",ipchar);
+    }
+    else{
+        printf("%c is an micellanelous character",ipchar);
+    }
+
+    return 0;
+}
+
