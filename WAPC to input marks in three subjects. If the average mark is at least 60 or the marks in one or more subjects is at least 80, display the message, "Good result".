@@ -1,0 +1,14 @@
+int main() {
+    int math,eng,gk,avg;
+    printf("enter marks of math eng and gk");
+    scanf("%d %d %d",&math,&eng,&gk);
+    
+    avg=(math+eng+gk)/300;
+    if (avg>=60 || math>=80 || eng>+80 || gk>=80){
+        printf("good result");
+    }
+    else{
+        printf("bad result");
+    }
+    return 0;
+}
