@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    // Top Half
+    for(int i=1; i<=5; i++){
+        for(int space=1; space<=(5-i); space++){ 
+            printf(" ");
+        }
+        for(int j=1; j<=i; j++){
+            printf("* ");
+        }
+        printf("\n");
+    }
+
+    // Bottom Half
+    for(int i=4; i>=1; i--){
+        // Corrected Space: increases as i decreases
+        for(int space=1; space<=(5-i); space++){ 
+            printf(" ");
+        }
+        // Corrected Stars: i is already 4,3,2,1
+        for(int j=1; j<=i; j++){
+            printf("* ");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
