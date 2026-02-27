@@ -1,0 +1,77 @@
+#include <stdio.h>
+
+ int add(int num1,int num2){
+        return num1+num2;
+    }
+int subtract(int num1,int num2){
+    return num1-num2;
+    }
+int multiply(int num1,int num2){
+    return num1*num2;       
+}
+int main() {
+    int num1,num2;
+    int result;
+    char i;
+    printf("enter first number: ");
+    scanf("%d",&num1);
+    printf("enter second number: ");
+    scanf("%d",&num2);
+    
+    printf("enter + for addition, - for subtraction and * for multiplication ");
+    scanf(" %c",&i);
+    switch(i){
+        case '+':
+            result=add (num1,num2);
+            break;
+        case '-':
+            result= subtract(num1,num2);
+            break; 
+        case '*':
+            result= multiply(num1,num2);
+            break;   
+        default:
+            printf("invalid operator");
+            
+    }
+    printf("%d",result);
+    return 0;
+}#include <stdio.h>
+
+ int add(int num1,int num2){
+        return num1+num2;
+    }
+int subtract(int num1,int num2){
+    return num1-num2;
+    }
+int multiply(int num1,int num2){
+    return num1*num2;       
+}
+int main() {
+    int num1,num2;
+    int result;
+    char i;
+    printf("enter first number: ");
+    scanf("%d",&num1);
+    printf("enter second number: ");
+    scanf("%d",&num2);
+    
+    printf("enter + for addition, - for subtraction and * for multiplication ");
+    scanf(" %c",&i);
+    switch(i){
+        case '+':
+            result=add (num1,num2);
+            break;
+        case '-':
+            result= subtract(num1,num2);
+            break; 
+        case '*':
+            result= multiply(num1,num2);
+            break;   
+        default:
+            printf("invalid operator");
+            
+    }
+    printf("%d",result);
+    return 0;
+}
