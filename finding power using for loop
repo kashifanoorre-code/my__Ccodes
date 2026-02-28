@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+   int x,y,i;
+   printf("enter first number: ");
+   scanf("%d",&x);
+   printf("enter power: ");
+   scanf("%d",&y);
+   int result=1;
+   for(i=1;i<=y;i++){
+       result=result*x;
+   }
+   printf("%d",result);
+    return 0;
+}
