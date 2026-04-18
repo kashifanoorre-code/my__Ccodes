@@ -1,0 +1,17 @@
+#include <stdio.h>
+int hcf(int a, int b){
+    if(b==0){
+        return a;
+    }
+    return hcf(b,a%b);
+}
+int main() {
+    int a,b;
+    printf("enter your number: ");
+    scanf("%d",&a);
+    printf("enter your number: ");
+    scanf("%d",&b);
+    printf("highest common factor is:%d",hcf(a,b));
+
+    return 0;
+}
