@@ -1,0 +1,14 @@
+#include <stdio.h>
+typedef struct{
+    int a;
+    char name[20];
+}student;
+int main() {
+    student s1={12,"lemon"};
+    student s2={13,"daisy"};
+    
+    printf("%d, %s\n",s1.a,s1.name);
+    printf("%d, %s",s2.a,s2.name);
+
+    return 0;
+}
